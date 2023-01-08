@@ -1,0 +1,204 @@
+/* main styles */
+*{
+    margin: 0;
+}
+/* button styles */
+.button-primary{
+    height: 50px;
+    width: 120px;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 800;
+    text-align: center;
+}
+.donate-secondary{
+    margin: 0px 600px;
+    background-color: rgb(255, 153, 0);
+}
+.donate-button{
+    box-shadow: 4px 5px rgba(0, 0, 0, 0.514);
+    color: white;
+    background-color: rgb(0, 158, 179);
+}
+/* header banner style */
+.header-banner{
+    text-align: center;
+    background-image: url('../images/donation9.jpg');
+    background-size: 1350px;
+    color: white;
+    background-repeat: no-repeat;
+    margin-left: 0;
+    width: 100%;
+}
+.header-container{
+    height: 700px;
+    width: 1350px;
+}
+.banner-title{
+    text-shadow: 10px 10px rgba(0, 0, 0, 0.495);
+    font-size: 70px;
+    font-weight: 900;
+    padding: 180px 280px 0 280px;
+}
+.banner-des{
+    color: rgb(240, 240, 240);
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 280px 0 280px;
+}
+/* PRICING level section */
+.pricing-section{
+    margin-top: 100px;
+}
+.pricing-title{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    padding: 20px 280px 10px 280px;
+}
+.pricing-des{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(71, 71, 71);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 280px 0 280px;
+}
+.pricing-container{
+    display: flex;
+    font-size: 20px;
+    color: gray;
+    gap: 35px;
+    padding: 50px 230px 0 280px;
+}
+.price{
+    
+    background-color: rgba(211, 211, 211, 0.11);
+    padding: 35px 25px;
+    align-items: center;
+    
+}
+.price-input{
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 0;
+    margin-left: 0;
+    padding-right: 50px;
+    opacity: 50%;
+}
+.price-input input{
+    
+    color: rgba(128, 128, 128, 0.363);
+    font-weight: 100;
+    font-size: 22px;
+    padding: 20px 230px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.623);
+    margin-bottom: 50px;
+    text-align: center;
+    
+}
+
+/* plans */
+.plans{
+    display: flex;
+    margin: 50px 80px;
+    gap: 40px;
+
+}
+.plans-contents{
+    padding: 80PX 15PX;
+}
+.plans-title{
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.plans-des{
+    text-align: left;
+    color: rgb(71, 71, 71);
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+/* contribute section */
+/* how to contribute -left */
+.contribute{
+    margin-left: 80px;
+    display: flex;
+    margin-right: 100px;
+    margin-top: 80px;
+}
+.contribute-title{
+    font-size: 45px;
+    font-weight: 800;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+.contribute-des{
+
+    color: rgb(71, 71, 71);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    padding: 30px 50px 40px 0;
+}
+.how-to-contribute{
+    height: 60px;
+    width: 200px;
+    color: white;
+    background-color: chocolate;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px 8px;
+    font-size: 18px;
+    font-weight: 900;
+}
+.contribute-img{
+    padding-right: 180px;
+    padding-top: 0x;
+    height: 450px;
+    width: 430px;
+}
+/* subscribe section */
+
+.inputs{
+    background-color: rgba(210, 105, 30, 0.079);
+    margin: 50px 200px 0 80px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.sub-mail{
+    border: 1 solid rgb(212, 212, 212);
+    padding: 12px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.192);
+}
+.sub-input{
+    text-align: center;
+}
+/* footer */
+.footer{
+    height: 100px;
+    color: white;
+    background-color: rgb(49, 49, 49);
+    padding-top: 80px;
+}
+.be-humble{
+    color: rgb(180, 35, 161);
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+}
+.done{
+    text-align: center;
+}
